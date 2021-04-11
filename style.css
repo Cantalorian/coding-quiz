@@ -13,5 +13,19 @@ body {
 .quiz-container {
   margin: 20% 12%;
   border: 1px solid black;
-  box-shadow: 7px 7px 7px 7px grey;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+
+.btn-start {
+  width: 15%;
+  transition-duration: 0.4s;
+  border-radius: 4px;
+  align-content: center;
+  padding: 1%;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.btn-start:hover {
+  background-color: red;
 }
