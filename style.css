@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quiz-container {
+  margin: 20% 12%;
+  border: 1px solid black;
+  box-shadow: 7px 7px 7px 7px grey;
+}
