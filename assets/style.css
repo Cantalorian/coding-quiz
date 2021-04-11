@@ -5,27 +5,27 @@ body {
   text-align: center;
 }
 
-.timer {
+#timer {
   display: flex;
   justify-content: space-between;
 }
 
-.quiz-container {
-  margin: 20% 12%;
+#quiz-container {
+  margin: 10% 15%;
   border: 1px solid black;
   box-shadow: 5px 5px 5px 5px grey;
 }
 
-.btn-start {
+#btn-start {
   width: 15%;
   transition-duration: 0.4s;
   border-radius: 4px;
   align-content: center;
   padding: 1%;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   font-weight: bold;
 }
 
-.btn-start:hover {
+#btn-start:hover {
   background-color: red;
 }
